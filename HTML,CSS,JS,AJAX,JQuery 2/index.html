@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Kontrolinis bootstrap</title>
+	<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<!-- Kad veiktu bootstrapas: -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Kad veiktu CSS: -->
+<link rel="stylesheet" type="text/css" href="csskontroliniui.css">
+
+<!-- Kad veiktu validavimas formos: -->
+  <script src="https://cdn.jsdelivr.net/jquery/1.12.4/jquery.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+	<div class="row">
+<!-- <div id="fonas"> -->
+	
+
+		<nav class="navbar navbar-default">
+			<div id="fonas">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">Logotipas</a>
+		    </div>
+
+		    <ul class="nav navbar-nav">
+		      <li class="active"><a href="#">Home</a></li>
+		      <li><a href="#">Apie</a></li>
+		      <li><a href="#">Projektai</a></li>
+					       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Mano darbai <span class="caret"></span></a>
+			        <ul class="dropdown-menu">
+			          <li><a href="../1PD/index1.html">1. HTML1</a></li>
+			          <li><a href="../2PD/index.html"">2. Style, table</a></li>
+			          <li><a href="../3 PD css/css_selektoriai_uzduotis.html">3. CSS</a></li>
+			          <li><a href="../4 PD Bootstrap, Sass/INDEX.html">4. Bootstrap</a></li>
+			          <li><a href="../5 PD JavaScript/INDEX.html">5. JavaScript</a></li>
+			          <li><a href="../6 PD Js Objektinis, data, knygos psl/index2 (copy 2).html">6. JS objektinis programavimas</a></li>
+			          <li><a href="../7 _kontr_Sablonai, validavimas/index -pasiruosimas kontroliniui.html">7. Jquery, ajax</a></li>
+
+			        </ul>
+			      </li>
+		    </ul>
+
+			<ul class="nav navbar-nav navbar-right">
+			      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+			      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+			    </ul>
+		   </div>
+		   </div>
+		</nav>
+</div>
+		<div class="row">
+	<div id="backgroundImage"></div>
+</div>
+ 
+	<div class="row">
+     
+		<div class="col-xs-6 col-sm-3">
+		
+				<div id="container1">
+				 <br>
+			      <p><a href="#">Pirma nuoroda</a></p>
+			      <p><a href="#">Antra nuoroda</a></p>
+			      <p><a href="#">Trecia nuoroda</a></p>
+			 	
+
+			 
+				<div id="datairtemp">
+		      	<p id="data"></p>
+		      	<p> Temperatūra Vilniuje</p>
+		     	<div id="ajaxBtn" value="Send GET request" ></div>
+		     	<div id="result"></div>
+		     	</div>
+
+		
+		     </div>
+		</div>
+		
+		   
+		<div class="col-xs-6 col-sm-3 ">
+		<div id="container2">
+								 <h1>Welcome</h1>
+		      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <ins>Excepteur</ins> sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+		</div>
+		      
+		      <div class="col-xs-6 col-sm-3 ">
+		<div id="container3">
+		       <h3>Kita antraste</h3>
+		       <ul>
+		            <li>Lokys</li>
+		            <li>Gyvunas
+		              <ol type="1">
+		                  <li> gyvunas pirmas</li>
+		                  <li> gyunas <del>antras</del></li>
+		                  <li> paskutinis gyvunas</li>
+		              </ol>
+		              </li>
+		           <li>Muse</li>
+		            <li>Vabzdys</li>
+		            
+		       </ul>
+		      <p>Lorem ipsum...</p>
+
+
+		<table>
+			  <tr>
+			    <th>Firstname</th>
+			    <th>Lastname</th>
+			  </tr>
+			  <tr>
+			    <td>Peter</td>
+			    <td>Griffin</td>
+			  </tr>
+			  <tr>
+			    <td>Lois</td>
+			    <td>Griffin</td>
+			  </tr>
+		</table>
+
+
+		</div>
+		</div>
+		
+
+	<div class="col-xs-12 col-sm-3 ">
+	<div id="container4">
+			<br>
+			<div class="hr"><hr></div>
+			<img class="img" src="flower.jpeg" class="img-responsive" alt="flower">
+			<div class="hr"><hr></div>
+			<img class="img" src="milk.jpeg" class="img-responsive" alt="milk">
+	</div> 	
+	</div>
+		       
+</div>	
+
+<div class="row">
+
+  <footer class="container-fluid text-center">
+     <div class="row">
+ <div class="col-xs-12 col-sm-4"></div>
+ <div class="col-xs-12 col-sm-4">
+    
+<button id="formHide" >Click me to hide form</button>
+<button id="formShow" >Click me to show form </button>
+
+    <form id="form2" action="">
+          
+      		<div class="formLabel"> First name:</div>
+        	<input type="text" name="firstname" placeholder="john"/>
+      
+      		<div class="formLabel"> Last name:</div>
+          <input type="text" name="lastname" placeholder="doe"/>
+       
+           <div class="formLabel"> Email:</div>
+          <input type="email" name="email" placeholder="john@doe.com"/>
+       <br><br>
+           <input type="submit" value="OK">
+    </form> 
+  </div>
+  <div class="col-xs-12 col-sm-4"></div>
+
+</div>
+       <br>
+
+   
+</div>
+</footer>
+<div class="row">
+<div class="container-fluid text-center">
+ <div class="col-xs-1 col-sm-8 col-lg-8"></div>
+       <div class="col-xs-11 col-sm-4 col-lg-4">
+        &copy Visos teisės saugomas
+      </div>
+  </div>
+ 
+
+</div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

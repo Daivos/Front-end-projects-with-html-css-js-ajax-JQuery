@@ -1,0 +1,194 @@
+/*html {
+  box-sizing: border-box;
+}*/
+* {
+    font-family: arial;
+    font-size: 18px;
+    color:green;
+}
+
+#fonas{
+background-color: red;
+}
+
+.navbar-default .navbar-brand{
+  color: white;
+font-size: 40px;
+font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: white;
+font-size: 25px;
+font-style: italic;
+}
+
+ .navbar{
+    padding: 30px;
+    margin-bottom: 0;
+    background-color: red;
+    border: 0;
+  }
+
+#copyright{
+  background-color: red;
+  color:white;
+  margin: 0px;
+}
+
+#hello, #val {
+color: white;
+font-size: 25px;
+}
+
+#backgroundImage {
+  width: 100%;
+    height: 300px;
+    background-image: url("header.png");
+    background-size: cover;
+    
+}
+
+#container1{
+
+  padding: 10px;
+  width: 100%;
+  height: 550px;
+  text-align: center;    
+}
+
+#container2{
+
+  padding: 30px;
+  width: 100%;
+  height: 550px; 
+  text-align: left; 
+}
+
+#data {
+color: white;
+}
+
+#miestas {
+color: red;
+font-size: 30px;
+}
+
+.img{
+	width: 80%;
+	padding: 20px;
+ height: 400px;
+	  margin: 20px;
+ 
+  
+}
+
+footer{
+  width: 100%;
+    min-height: 300px;
+    background-color: hsl(0, 100%, 75%);
+    background-size: cover;
+    
+}
+
+
+ form {
+  padding-left: 90px;
+  padding-top: 50px;
+  color: #D5D5D5;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius:4px;
+  text-align: left;
+}
+
+.formLabel{
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+input[type="submit" i]{
+color: white;
+background-color: green;
+padding-right: 50px;
+}
+
+form .error {
+  color: green;
+  padding-bottom: 10px;
+}
+
+#formHide, #formShow{
+  border: 0;
+  background-color: white;  
+}
+
+h2 {
+  color:green;
+}
+
+#datairtemp{
+  margin: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+#formHide, #formShow{
+	margin: 10px;
+	color: #6D7993;
+	}
+
+
+  a:hover {
+  	background-color: green;
+  	text-decoration: none;
+
+  }
+  a:link{
+  	color:  	#2F4160;
+  	text-decoration: none;
+  }
+  a:visited{
+  	color: white;
+  	text-decoration: none;
+  }
+  a:active{
+  	color:yellow;
+  	text-decoration: none;
+  }
+
+ 
+
+  [class*="col-"]{
+    padding-right: 0;
+    padding-left: 0;
+
+  }
+
+
+table {
+    border-collapse: collapse;
+     width: 80%;
+     height: 80%
+
+   
+
+
+    }
+
+table, td, th {
+    border: 1px red;
+    text-align: center;
+    font-size: 30px;
+      color: red;
+
+    }
+#ajaxBtn, #result, #resultCity, #weather{
+text-align: center;
+      color: red;
+      font-size: 30px;
+    }
+

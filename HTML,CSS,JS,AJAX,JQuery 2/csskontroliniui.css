@@ -1,0 +1,150 @@
+/*html {
+  box-sizing: border-box;
+}*/
+* {
+    font-family: georgia;
+    font-size: 12px;
+    color:#41204B;
+
+}
+
+#fonas{
+background-color: #D5D5D5;
+}
+
+
+
+#data{
+color: #203965;
+}
+
+.img{
+	width: 80%;
+	padding-left: 20px;
+ max-height: 200px;
+	
+}
+
+#datairtemp{
+  margin: 20px;
+  position: absolute;
+  bottom: 0;
+
+}
+
+#container2{
+background-color:#9099A2 ;
+	padding: 10px;
+	width: 100%;
+	height: 550px;
+	
+}
+
+
+#container4{
+background-color:#968586 ;
+  padding: 10px;
+  width: 100%;
+  height: 550px;
+  
+}
+
+#container1{
+background-color:#ded3d3 ;
+	padding: 10px;
+	width: 100%;
+	height: 550px;
+	text-align: center;
+	
+	
+}
+
+#container3{
+background-color:#D5D5D5 ;
+	padding: 10px;
+	width: 100%;
+	height: 550px;
+	
+}
+
+footer{
+	width: 100%;
+    min-height: 300px;
+    background-color: #6D7993;
+    background-size: cover;
+    
+}
+
+
+
+#backgroundImage {
+	width: 100%;
+    height: 300px;
+    background-image: url("levander.jpeg");
+    background-size: cover;
+    
+}
+
+ form {
+  padding: 10px;
+  background: #6D7993;
+  color: #D5D5D5;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+#formHide, #formShow{
+	margin: 10px;
+	color: #6D7993;
+	}
+
+
+
+
+  input {
+color: black;
+}
+
+form .error {
+  color: #DC143C;
+  padding-bottom: 10px;
+}
+
+  a:hover {
+  	background-color: green;
+  	text-decoration: none;
+
+  }
+  a:link{
+  	color:  	#2F4160;
+  	text-decoration: none;
+  }
+  a:visited{
+  	color: white;
+  	text-decoration: none;
+  }
+  a:active{
+  	color:yellow;
+  	text-decoration: none;
+  }
+
+  .navbar{
+    margin-bottom: 0;
+  }
+
+  [class*="col-"]{
+    padding-right: 0;
+    padding-left: 0;
+
+  }
+
+
+table {
+    border-collapse: collapse;
+
+    }
+
+table, td, th {
+    border: 1px solid black;
+}
