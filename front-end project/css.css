@@ -37,10 +37,11 @@
 }
 
 
+
 .jumbotron {
   background-color: #f4511e; 
   /* background-image: url("./images/computerDark.jpg"); */
-  background-image: linear-gradient(rgba(112, 99, 119, 0.6),rgba(112, 99, 119, 0.6)), url("./images/computerDark.jpg"); 
+  background-image: linear-gradient(rgba(151, 52, 204, 0.6),rgba(151, 52, 204, 0.6)), url("./images/computerDark.jpg"); 
   color:white;
   width: 100%;
   height: 600px;
@@ -67,10 +68,28 @@
 }
 
 /* mygtuko css: */
-#btwght {
-padding-inline-start: 45px;
-padding-inline-end: 45px;
 
+
+#bt1{
+border-color: #FFFFFF;
+background-color: #FFFFFF;
+padding-inline-start: 70px;
+padding-inline-end: 70px;
+color:rgb(47, 16, 65);
+border-radius: 8px;
+font-style:bold;
+text-align: center;
+margin: 10px;
+}
+
+#bt2{
+  border-color: rgb(246, 250, 7);
+background-color: rgb(246, 250, 7);
+padding-inline-start: 40px;
+padding-inline-end: 40px;
+color:rgb(47, 16, 65);
+border-radius: 8px;
+margin: 10px;
 }
 
 .bg-grey {
@@ -213,8 +232,8 @@ transform: scale(-1, 1);
   .h1-header-6{
     color:BLACK;
     margin-top: 100px;
-    margin-bottom: 50px;
-    margin-left: 100px;
+    /* margin-bottom: 50px;
+    margin-left: 100px; */
   }
 
 /* 7 */
@@ -222,7 +241,7 @@ transform: scale(-1, 1);
     border: 10px solid transparent;
       margin-bottom: 25px;
       width: 170px;
-      height: 190px;
+      height: 200px;
       opacity: 1;
   }
 
@@ -241,15 +260,25 @@ color:red
     width: 100%;
     height: 400px;
     background-size: cover;
+
     
   }
 
   .row-1{
-    padding-top:80px
+    padding-top:80px;
+    margin-left: 20px;
   }
   #row-2{
   font-size:12;
   }
+
+  #bt-job{
+    font-size: 10px;
+      background-color: rgb(246, 250, 7);
+      color: rgb(0, 0, 0);
+      border-radius: 24px;
+  }
+
   
 
 
